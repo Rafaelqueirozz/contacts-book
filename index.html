@@ -10,7 +10,7 @@
 
   <!-- STYLES -->
   <link rel="stylesheet" href="./assets/css/main.css">
-  
+  <link rel="stylesheet" href="./assets/icons/style.css">
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,30 +32,22 @@
       <h1 class="main_title">Contact list</h1>
       <h2 class="main_subtitle">Below are all your contacts</h2>
     </section>
-    <section class="main_contacts">
+    <section class="main_contacts maxWidth">
       <li class="contact_container">
-        <div class="contact_header contact_content">First Name</div>
-        <div class="contact_header contact_content">Last Name</div>
+        <div class="contact_header contact_content contact_name">First Name</div>
+        <div class="contact_header contact_content contact_surname">Last Name</div>
         <div class="contact_header contact_content contact_mail">Mail</div>
-        <div class="contact_header contact_content">Cellphone</div>
+        <div class="contact_header contact_content contact_phone">Cellphone</div>
         <div class="contact_header contact_content contact_edit">Edit</div>
         <div class="contact_header contact_content contact_delete">Delete</div>
       </li>
       <li class="contact_container">
-        <div class="contact_content">Stacy</div>
-        <div class="contact_content">Riley</div>
+        <div class="contact_content contact_name">Stacy</div>
+        <div class="contact_content contact_surname">Riley</div>
         <div class="contact_content contact_mail">stacy.riley@example.com</div>
-        <div class="contact_content">(798) 303-2986</div>
-        <div class="contact_content contact_edit">Edit</div>
-        <div class="contact_content contact_delete">Delete</div>
-      </li>
-      <li class="contact_container">
-        <div class="contact_content">Jonathan</div>
-        <div class="contact_content">Jordan</div>
-        <div class="contact_content contact_mail">jonathan.jordan@example.com</div>
-        <div class="contact_content">(767) 455-3376</div>
-        <div class="contact_content contact_edit">Edit</div>
-        <div class="contact_content contact_delete">Delete</div>
+        <div class="contact_content contact_phone">(798) 303-2986</div>
+        <div class="contact_content contact_edit"><button><span class="icon-edit" id="editButton"></span></button></div>
+        <div class="contact_content contact_delete"><button><span class="icon-trash-2" id="deleteButton"></span></button></div>
       </li>
     </section>
   </main>
